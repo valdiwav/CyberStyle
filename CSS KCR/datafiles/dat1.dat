@@ -1,0 +1,191 @@
+[
+ {
+   "Enunciado": "Completa la sentencia para establecer el color de fondo a rojo:",
+   "Codigo": "<div style=\"background-color: __________;\"></div>",
+   "Respuesta": "red",
+   "I1": "background-red",
+   "I2": "#FF0000",
+   "I3": "rgba(255, 0, 0, 1)",
+   "Pista": "Para establecer un color de fondo simple en CSS, la propiedad `background-color` acepta nombres de colores predefinidos, como 'red'. También puedes usar valores hexadecimales como `#FF0000` o RGBA para definir colores, pero en este caso, la forma más directa es simplemente usar `red`."
+ },
+ {
+   "Enunciado": "¿Qué propiedad CSS se usa para cambiar el color del texto a azul?",
+   "Codigo": "<p style=\"__________: blue;\"></p>",
+   "Respuesta": "color",
+   "I1": "text-color",
+   "I2": "font-color",
+   "I3": "background-color",
+   "Pista": "La propiedad `color` en CSS controla el color del texto. Aunque `text-color` o `font-color` parecen opciones lógicas, no son propiedades válidas en CSS. `background-color` cambia el color de fondo, no el del texto."
+ },
+ {
+   "Enunciado": "Completa la sentencia para establecer el color de borde a verde usando el formato RGB:",
+   "Codigo": "<div style=\"border: 1px solid __________;\"></div>",
+   "Respuesta": "rgb(0, 255, 0)",
+   "I1": "#00FF00",
+   "I2": "rgba(0, 255, 0, 1)",
+   "I3": "hsl(120, 100%, 50%)",
+   "Pista": "El formato `rgb(0, 255, 0)` representa el color verde puro. Aunque `#00FF00` es equivalente en formato hexadecimal y `rgba(0, 255, 0, 1)` incluye opacidad, la respuesta correcta pide el formato RGB exacto sin alfa."
+ },
+ {
+   "Enunciado": "Completa la sentencia para aplicar un color de texto amarillo usando un valor hexadecimal:",
+   "Codigo": "<p style=\"color: __________;\"></p>",
+   "Respuesta": "#FFFF00",
+   "I1": "#FF0",
+   "I2": "yellow",
+   "I3": "rgb(255, 255, 0)",
+   "Pista": "El valor hexadecimal `#FFFF00` es el código correcto para el color amarillo. Aunque `yellow` también es válido y `rgb(255, 255, 0)` es equivalente, el valor hexadecimal completo es el formato específico que se requiere."
+ },
+ {
+   "Enunciado": "Completa la sentencia para establecer el color de fondo a un tono de azul claro con un 50% de opacidad:",
+   "Codigo": "<div style=\"background-color: __________;\"></div>",
+   "Respuesta": "rgba(173, 216, 230, 0.5)",
+   "I1": "rgb(173, 216, 230)",
+   "I2": "#ADD8E6",
+   "I3": "hsl(195, 53%, 79%)",
+   "Pista": "El formato `rgba` te permite definir un color con transparencia. En este caso, `rgba(173, 216, 230, 0.5)` representa un azul claro (`lightblue`) con 50% de opacidad. Si no se especifica opacidad, se usa el formato `rgb`, hexadecimal o `hsl`."
+ },
+{
+   "Enunciado": "Completa la sentencia para aplicar un gradiente lineal que vaya de rojo a amarillo:",
+   "Codigo": "<div style=\"background-image: __________(red, yellow);\"></div>",
+   "Respuesta": "linear-gradient",
+   "I1": "background-gradient",
+   "I2": "gradient",
+   "I3": "radial-gradient",
+   "Pista": "La sintaxis correcta para un gradiente lineal en CSS es `linear-gradient`. Las demás opciones son incorrectas por errores de sintaxis o por especificar otro tipo de gradiente."
+ },
+ {
+   "Enunciado": "Completa la sentencia para aplicar un color de fondo verde usando el modelo HSL:",
+   "Codigo": "<div style=\"background-color: __________;\"></div>",
+   "Respuesta": "hsl(120, 100%, 50%)",
+   "I1": "rgb(0, 255, 0)",
+   "I2": "#00FF00",
+   "I3": "hsl(0, 100%, 50%)",
+   "Pista": "El modelo HSL (Hue, Saturation, Lightness) describe colores en términos de tono, saturación y luminosidad. Para obtener verde, el tono debe ser 120 grados. Las otras opciones representan verde en otros formatos como RGB y hexadecimal."
+ },
+ {
+   "Enunciado": "Completa la sentencia para aplicar un color de texto azul con una opacidad del 80%:",
+   "Codigo": "<p style=\"color: __________;\"></p>",
+   "Respuesta": "rgba(0, 0, 255, 0.8)",
+   "I1": "rgb(0, 0, 255)",
+   "I2": "#0000FF",
+   "I3": "hsl(240, 100%, 50%)",
+   "Pista": "La propiedad `rgba` te permite definir un color con un nivel de opacidad. En este caso, `rgba(0, 0, 255, 0.8)` es azul con un 80% de opacidad. Las otras opciones no permiten definir opacidad."
+ },
+ {
+   "Enunciado": "Completa la sentencia para establecer el color de fondo en azul claro utilizando un valor hexadecimal:",
+   "Codigo": "<div style=\"background-color: __________;\"></div>",
+   "Respuesta": "#ADD8E6",
+   "I1": "#0000FF",
+   "I2": "lightblue",
+   "I3": "rgb(173, 216, 230)",
+   "Pista": "El código hexadecimal para el color azul claro es `#ADD8E6`. Si bien `lightblue` y `rgb(173, 216, 230)` son equivalentes, la pregunta especifica que se requiere el valor hexadecimal."
+ },
+ {
+   "Enunciado": "Completa la sentencia para aplicar un borde sólido rojo con un 50% de opacidad:",
+   "Codigo": "<div style=\"border: 2px solid __________;\"></div>",
+   "Respuesta": "rgba(255, 0, 0, 0.5)",
+   "I1": "#FF0000",
+   "I2": "rgb(255, 0, 0)",
+   "I3": "hsl(0, 100%, 50%)",
+   "Pista": "Para definir un borde rojo con transparencia, utilizamos el formato `rgba`. En este caso, `rgba(255, 0, 0, 0.5)` indica un color rojo con 50% de opacidad."
+ },
+ {
+   "Enunciado": "Completa la sentencia para establecer el color de texto en blanco utilizando un valor RGB:",
+   "Codigo": "<p style=\"color: __________;\"></p>",
+   "Respuesta": "rgb(255, 255, 255)",
+   "I1": "#FFFFFF",
+   "I2": "white",
+   "I3": "rgba(255, 255, 255, 1)",
+   "Pista": "La opción `rgb(255, 255, 255)` representa el color blanco en formato RGB. Aunque `#FFFFFF` y `white` también son válidos, la pregunta solicita específicamente el formato RGB."
+ },
+ {
+   "Enunciado": "Completa la sentencia para aplicar un gradiente radial que vaya de negro a blanco:",
+   "Codigo": "<div style=\"background-image: __________(black, white);\"></div>",
+   "Respuesta": "radial-gradient",
+   "I1": "linear-gradient",
+   "I2": "background-gradient",
+   "I3": "gradient",
+   "Pista": "Para un gradiente radial, utiliza `radial-gradient`. Las demás opciones no corresponden a gradientes radiales."
+ },
+ {
+   "Enunciado": "Completa la sentencia para establecer el color de fondo a un tono de gris claro usando un valor HSL:",
+   "Codigo": "<div style=\"background-color: __________;\"></div>",
+   "Respuesta": "hsl(0, 0%, 75%)",
+   "I1": "rgb(192, 192, 192)",
+   "I2": "#C0C0C0",
+   "I3": "hsl(0, 0%, 50%)",
+   "Pista": "En el modelo HSL, los tonos de gris se obtienen manteniendo la saturación en 0%. Para un gris claro, `hsl(0, 0%, 75%)` es la opción correcta. Los otros valores representan gris en formatos diferentes o un tono más oscuro."
+ },
+ {
+   "Enunciado": "¿Cuál es el valor hexadecimal para el color negro?",
+   "Codigo": "<p style=\"color: __________;\"></p>",
+   "Respuesta": "#000000",
+   "I1": "#111111",
+   "I2": "#010101",
+   "I3": "rgb(0, 0, 0)",
+   "Pista": "El valor hexadecimal `#000000` representa el negro puro. Aunque `rgb(0, 0, 0)` es equivalente en formato RGB, la pregunta pide específicamente el formato hexadecimal."
+ },
+ {
+   "Enunciado": "Completa la sentencia para aplicar un color de borde naranja utilizando un valor RGB:",
+   "Codigo": "<div style=\"border: 1px solid __________;\"></div>",
+   "Respuesta": "rgb(255, 165, 0)",
+   "I1": "#FFA500",
+   "I2": "rgba(255, 165, 0, 1)",
+   "I3": "hsl(39, 100%, 50%)",
+   "Pista": "El valor `rgb(255, 165, 0)` representa el color naranja en formato RGB. Si bien los otros valores son correctos en diferentes formatos, la pregunta requiere específicamente el formato RGB."
+ },
+ {
+   "Enunciado": "Completa la sentencia para establecer un gradiente lineal de azul a verde:",
+   "Codigo": "<div style=\"background-image: __________;\"></div>",
+   "Respuesta": "linear-gradient(blue, green)",
+   "I1": "radial-gradient(blue, green)",
+   "I2": "gradient(linear, blue, green)",
+   "I3": "linear-gradient(#0000FF, #008000)",
+   "Pista": "La sintaxis correcta para un gradiente lineal es `linear-gradient(color1, color2)`. Las demás respuestas contienen errores de formato o especifican un gradiente radial."
+ },
+ {
+    "Enunciado": "Completa la sentencia para definir un color de borde naranja:",
+    "Codigo": "<div style=\"border: 2px solid __________(255, 165, 0);\"></div>",
+    "Respuesta": "rgb",
+    "I1": "rgba",
+    "I2": "hsl",
+    "I3": "hex",
+    "Pista": "El modelo RGB define colores utilizando tres valores para rojo, verde y azul. Es ideal cuando no se necesita transparencia."
+  },  
+  {
+    "Enunciado": "Completa la sentencia para establecer un color de texto verde claro con transparencia:",
+    "Codigo": "<p style=\"color: __________(144, 238, 144, 0.7);\"></p>",
+    "Respuesta": "rgba",
+    "I1": "rgb",
+    "I2": "hsl",
+    "I3": "hex",
+    "Pista": "El modelo RGBA extiende RGB al permitir un cuarto valor para ajustar la opacidad, que varía de 0 (totalmente transparente) a 1 (opaco)."
+  },
+  {
+    "Enunciado": "Define un color de fondo gris utilizando el modelo HSL:",
+    "Codigo": "<div style=\"background-color: __________(0, 0%, 75%);\"></div>",
+    "Respuesta": "hsl",
+    "I1": "rgb",
+    "I2": "rgba",
+    "I3": "hex",
+    "Pista": "HSL significa Hue (matiz), Saturation (saturación) y Lightness (luminosidad), y se usa para colores más intuitivos."
+  },
+  {
+    "Enunciado": "Completa la sentencia para definir un color de fondo púrpura en formato hexadecimal:",
+    "Codigo": "<div style=\"background-color: __________(800080);\"></div>",
+    "Respuesta": "#",
+    "I1": "hex",
+    "I2": "rgb",
+    "I3": "rgba",
+    "Pista": "El formato hexadecimal usa un símbolo # seguido de valores para rojo, verde y azul en código base 16."
+  },
+  {
+    "Enunciado": "Establece un gradiente radial que va de verde a amarillo:",
+    "Codigo": "<div style=\"background-image: __________(green, yellow);\"></div>",
+    "Respuesta": "radial-gradient",
+    "I1": "linear-gradient",
+    "I2": "gradient",
+    "I3": "background-gradient",
+    "Pista": "Los gradientes radiales son útiles para efectos que parecen emanar desde un punto central hacia afuera."
+  }
+]

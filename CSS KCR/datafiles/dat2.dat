@@ -1,0 +1,182 @@
+[
+  {
+    "Enunciado": "Completa la propiedad de sombra en el texto con un desplazamiento horizontal de 3px, desplazamiento vertical de 3px, un radio de 5px y un color negro.",
+    "Codigo": "<p style=\"_____-______: 3px 3px 5px black;\">It's over human!</p>",
+    "Respuesta 1": "text",
+    "Respuesta 2": "shadow",
+    "I1": "dark",
+    "I2": "outline",
+    "Pista": "Para aplicar sombra al texto, utiliza la propiedad text-shadow. La sintaxis correcta sería text-shadow: 3px 3px 5px black;. Esta propiedad permite crear efectos de profundidad y resaltar el texto en tu diseño."
+  },
+  {
+    "Enunciado": "Completa la propiedad de alineación horizontal del texto a la izquierda.",
+    "Codigo": "<p style=\"__________-__________: left;\">Hello Human!</p>",
+    "Respuesta 1": "text",
+    "Respuesta 2": "align",
+    "I1": "justify",
+    "I2": "margin",
+    "Pista": "Para alinear el texto horizontalmente, se utiliza la propiedad text-align. En este caso, text-align: left; alinea el texto al borde izquierdo de su contenedor, permitiendo que el contenido se vea organizado."
+  },
+  {
+    "Enunciado": "Completa la propiedad de tamaño de fuente con un valor de 2.5 centímetros.",
+    "Codigo": "<p style=\"font-__________:_____;\">Hello Weird!</p>",
+    "Respuesta 1": "size",
+    "Respuesta 2": "2.5cm",
+    "I1": "height",
+    "I2": "weight",
+    "Pista": "La propiedad font-size se utiliza para definir el tamaño de la fuente. La sintaxis correcta sería font-size: 2.5cm;, lo que permite especificar el tamaño en centímetros. Esto ayuda a mantener la legibilidad del texto en la página."
+  },
+  {
+    "Enunciado": "Completa la propiedad de alineación vertical del texto al centro.",
+    "Codigo": "<p style=\"__________-align:__________;\">I have the high ground!</p>",
+    "Respuesta 1": "vertical",
+    "Respuesta 2": "middle",
+    "I1": "text",
+    "I2": "center",
+    "Pista": "Para alinear el texto verticalmente, se debe utilizar la propiedad vertical-align. En este caso, vertical-align: middle; alinea el contenido en el medio de su contenedor, lo cual es útil para centrar texto en elementos de línea."
+  },
+  {
+    "Enunciado": "Completa la propiedad de texto decorativo para subrayar el texto.",
+    "Codigo": "<p style=\"text-__________:__________;\">You talkin' to me?</p>",
+    "Respuesta 1": "decoration",
+    "Respuesta 2": "underline",
+    "I1": "line",
+    "I2": "highlight",
+    "Pista": "Para subrayar un texto, se utiliza la propiedad text-decoration. La sintaxis correcta sería text-decoration: underline;, que hace que el texto aparezca subrayado, una práctica común para enfatizar contenido."
+  },
+  {
+    "Enunciado": "Completa la propiedad de alineación horizontal del texto al centro.",
+    "Codigo": "<p style=\"text-__________: __________;\">Bye Human!</p>",
+    "Respuesta 1": "align",
+    "Respuesta 2": "center",
+    "I1": "middle",
+    "I2": "justify",
+    "Pista": "La propiedad text-align permite centrar el texto dentro de su contenedor. Usar text-align: center; asegura que el contenido se distribuya equitativamente a ambos lados, creando un aspecto equilibrado."
+  },
+  {
+    "Enunciado": "Completa la propiedad de alineación vertical del texto en la parte inferior.",
+    "Codigo": "<p style=\"__________-align: _________;\">Die Human!</p>",
+    "Respuesta 1": "vertical",
+    "Respuesta 2": "bottom",
+    "I1": "top",
+    "I2": "middle",
+    "Pista": "Para alinear el texto verticalmente en la parte inferior, se utiliza vertical-align. En este caso, vertical-align: bottom; se asegurará de que el texto se alinee con la parte inferior de su contenedor."
+  },
+  {
+    "Enunciado": "Completa la propiedad de tamaño de fuente con un valor de 1.2 veces el tamaño de fuente por defecto.",
+    "Codigo": "<p style=\"font-__________: _____;\">Hasta la vista baby!</p>",
+    "Respuesta 1": "size",
+    "Respuesta 2": "1.2em",
+    "I1": "1.2px",
+    "I2": "larger",
+    "Pista": "Para establecer el tamaño de la fuente en relación con el tamaño base, usa font-size: 1.2em;. La unidad 'em' es relativa al tamaño de fuente del elemento padre, lo que permite una mejor adaptabilidad."
+  },
+  {
+    "Enunciado": "Completa la propiedad de tamaño de fuente con un valor de 80% del tamaño de fuente por defecto.",
+    "Codigo": "<p style=\"__________-size:______ ;\">Say hello to my little friend!</p>",
+    "Respuesta 1": "font",
+    "Respuesta 2": "80%",
+    "I1": "0.8em",
+    "I2": "small",
+    "Pista": "Para definir un tamaño de fuente proporcional, puedes usar font-size: 80%;. Esto establece el tamaño de la fuente en un 80% del tamaño por defecto, lo que permite un diseño responsivo."
+  },
+  {
+    "Enunciado": "Completa la propiedad de sombra en el texto con un desplazamiento horizontal de -2px, desplazamiento vertical de 2px, un radio de 5px y un color gris.",
+    "Codigo": "<p style=\"_____-______: -2px 2px 5px grey;\">Contenido</p>",
+    "Respuesta 1": "text",
+    "Respuesta 2": "shadow",
+    "I1": "outline",
+    "I2": "border",
+    "Pista": "Utiliza text-shadow para aplicar sombra al texto. En este caso, sería text-shadow: -2px 2px 5px grey;. Esto puede hacer que el texto resalte sobre el fondo."
+  },
+  {
+    "Enunciado": "Completa la propiedad de texto decorativo para tachar el texto.",
+    "Codigo": "<p style=\"text-__________:__________;\">You shall not pass human!</p>",
+    "Respuesta 1": "decoration",
+    "Respuesta 2": "line-through",
+    "I1": "strike",
+    "I2": "cross",
+    "Pista": "La propiedad text-decoration: line-through; se utiliza para tachar un texto, indicando que ha sido eliminado o es irrelevante. Esta propiedad es útil para mostrar elementos que ya no son válidos."
+  },
+  {
+    "Enunciado": "Completa la propiedad de alineación horizontal del texto a la derecha.",
+    "Codigo": "<p style=\"text-__________: ______;\">Destroy all Humans!</p>",
+    "Respuesta 1": "align",
+    "Respuesta 2": "right",
+    "I1": "left",
+    "I2": "justify",
+    "Pista": "Para alinear el texto a la derecha, usa text-align: right;. Esta propiedad es esencial para diseños que requieren que el texto esté alineado hacia el margen derecho del contenedor."
+  },
+  {
+    "Enunciado": "Completa la propiedad de texto decorativo para resaltar el texto con un borde de puntos.",
+    "Codigo": "<p style=\"text-__________: __________;\">Beep Boop Bop!</p>",
+    "Respuesta 1": "decoration",
+    "Respuesta 2": "dotted",
+    "I1": "highlight",
+    "I2": "border",
+    "Pista": "Para aplicar un borde punteado al texto, usa text-decoration: dotted;. Esta propiedad permite resaltar el texto de manera estilística, añadiendo un toque visual."
+  },
+  {
+    "Enunciado": "Completa la propiedad de alineación horizontal del texto a la izquierda con justificación.",
+    "Codigo": "<p style=\"text-__________:__________;\">Hello World!</p>",
+    "Respuesta 1": "align",
+    "Respuesta 2": "justify",
+    "I1": "left",
+    "I2": "center",
+    "Pista": "La propiedad text-align: justify; distribuye el texto uniformemente entre los bordes del contenedor. Esto crea un aspecto ordenado y profesional, especialmente en párrafos largos."
+  },
+  {
+    "Enunciado": "Completa la propiedad de sombra en el borde con un desplazamiento horizontal de 0px, desplazamiento vertical de 3px, un radio de 8px y un color azul.",
+    "Codigo": "<div style=\"_____-_____: 0px 3px 8px blue;\">Contenido</div>",
+    "Respuesta 1": "box",
+    "Respuesta 2": "shadow",
+    "I1": "text",
+    "I2": "outline",
+    "Pista": "La propiedad box-shadow se utiliza para aplicar sombras a los elementos de bloque. En este caso, sería box-shadow: 0px 3px 8px blue;, lo que añade profundidad y dimensión al elemento."
+  },
+  {
+    "Enunciado": "Completa la propiedad de alineación vertical del texto en la parte superior.",
+    "Codigo": "<p style=\"__________-align:__________;\">Hasta la vista!</p>",
+    "Respuesta 1": "vertical",
+    "Respuesta 2": "top",
+    "I1": "middle",
+    "I2": "bottom",
+    "Pista": "La propiedad vertical-align permite alinear el texto en relación con su contenedor. En este caso, vertical-align: top; asegura que el texto esté alineado con la parte superior del contenedor."
+  },
+  {
+    "Enunciado": "Completa la propiedad de tamaño de fuente con un valor de 1.5 veces el tamaño de fuente por defecto.",
+    "Codigo": "<p style=\"font-__________: ______;\">Hasta la vista baby!</p>",
+    "Respuesta 1": "size",
+    "Respuesta 2": "1.5em",
+    "I1": "large",
+    "I2": "big",
+    "Pista": "La propiedad font-size: 1.5em; establece el tamaño de fuente en un 150% del tamaño por defecto. Esto es útil para resaltar ciertos elementos de texto en tu diseño."
+  },
+  {
+    "Enunciado": "Completa la propiedad de tamaño de fuente con un valor de 120% del tamaño de fuente por defecto.",
+    "Codigo": "<p style=\"font-__________:__________ ;\">Hasta la vista!</p>",
+    "Respuesta 1": "size",
+    "Respuesta 2": "120%",
+    "I1": "100%",
+    "I2": "0.5em",
+    "Pista": "Para definir un tamaño de fuente proporcional, puedes usar font-size: 120%;. Esto establece el tamaño de la fuente en un 120% del tamaño por defecto, ideal para aumentar la legibilidad."
+  },
+  {
+    "Enunciado": "Completa la propiedad de alineación horizontal del texto en el centro.",
+    "Codigo": "<p style=\"text-__________:__________;\">Hasta la vista!</p>",
+    "Respuesta 1": "align",
+    "Respuesta 2": "center",
+    "I1": "middle",
+    "I2": "right",
+    "Pista": "Para centrar el texto, utiliza text-align: center;. Esto asegura que el texto esté igualmente distribuido en ambos lados del contenedor, ofreciendo un aspecto limpio y ordenado."
+  },
+  {
+    "Enunciado": "Completa la propiedad de sombra en el texto con un desplazamiento horizontal de 1px, desplazamiento vertical de 1px, un radio de 3px y un color negro.",
+    "Codigo": "<p style=\"text-__________: 1px 1px 3px black;\">Hasta la vista!</p>",
+    "Respuesta 1": "shadow",
+    "Respuesta 2": "text",
+    "I1": "border",
+    "I2": "outline",
+    "Pista": "La propiedad text-shadow permite aplicar sombra a los elementos de texto. En este caso, sería text-shadow: 1px 1px 3px black;, lo que puede ayudar a que el texto resalte más en el diseño."
+  }
+]

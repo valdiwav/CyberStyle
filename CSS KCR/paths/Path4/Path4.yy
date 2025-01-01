@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"Path4",
+  "closed":false,
+  "kind":0,
+  "name":"Path4",
+  "parent":{
+    "name":"Mapa1",
+    "path":"folders/Rutas/Mapa1.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":640.0,"y":336.0,},
+    {"speed":100.0,"x":768.0,"y":336.0,},
+    {"speed":100.0,"x":768.0,"y":376.0,},
+    {"speed":100.0,"x":896.0,"y":376.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

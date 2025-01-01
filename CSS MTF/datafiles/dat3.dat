@@ -1,0 +1,233 @@
+[
+  {
+    "Enunciado": "Quieres centrar un texto horizontalmente dentro de un div, y también darle un margen automático. ¿Qué propiedades CSS usarías?",
+    "Codigo": "<div style=\"_____ : center; _____ : auto; _____ : 20px;\">Texto centrado</div>",
+    "Respuesta 1": "text-align",
+    "Respuesta 2": "margin",
+    "Respuesta 3": "padding",
+    "I1": "align-content",
+    "I2": "justify-content",
+    "I3": "border-spacing",
+    "Pista": "La propiedad 'text-align' alinea el texto dentro de un contenedor. 'Margin' con 'auto' centra el div en el eje horizontal, y 'padding' añade espacio interno."
+  },
+  {
+    "Enunciado": "Estás diseñando un botón con esquinas redondeadas y un fondo degradado. ¿Qué propiedades usarías?",
+    "Codigo": "<button style=\"_____ : 10px; _____ : linear-gradient(to right, red, blue); _____ : bold;\">Botón</button>",
+    "Respuesta 1": "border-radius",
+    "Respuesta 2": "background",
+    "Respuesta 3": "font-weight",
+    "I1": "text-shadow",
+    "I2": "outline",
+    "I3": "box-shadow",
+    "Pista": "La propiedad 'border-radius' redondea las esquinas. 'Background' aplica un degradado, y 'font-weight' define el grosor del texto."
+  },
+  {
+    "Enunciado": "Quieres que un elemento sea completamente transparente, pero mantenga su espacio en el diseño. ¿Qué propiedades usarías?",
+    "Codigo": "<div style=\"_____ : transparent; _____ : block; _____ : 1px solid black;\">Transparente</div>",
+    "Respuesta 1": "background-color",
+    "Respuesta 2": "display",
+    "Respuesta 3": "border",
+    "I1": "visibility",
+    "I2": "opacity",
+    "I3": "z-index",
+    "Pista": "'Background-color: transparent' hace que el fondo desaparezca pero conserva el espacio. 'Display: block' asegura que ocupe su línea, y 'border' lo delimita."
+  },
+  {
+    "Enunciado": "Quieres que una lista tenga sus ítems con viñetas circulares. ¿Qué propiedades CSS aplicas?",
+    "Codigo": "<ul style=\"_____ : disc; _____ : inside; _____ : 20px;\">Lista</ul>",
+    "Respuesta 1": "list-style-type",
+    "Respuesta 2": "list-style-position",
+    "Respuesta 3": "margin",
+    "I1": "padding",
+    "I2": "display",
+    "I3": "list-style-image",
+    "Pista": "'List-style-type' define el estilo de viñeta. 'List-style-position: inside' alinea viñetas con el texto, y 'margin' separa la lista del resto."
+  },
+  {
+    "Enunciado": "Quieres establecer una cuadrícula con dos columnas iguales. ¿Qué propiedades utilizas?",
+    "Codigo": "<div style=\"display: grid; _____ : repeat(2, 1fr); _____ : 10px; _____ : center;\">Cuadrícula</div>",
+    "Respuesta 1": "grid-template-columns",
+    "Respuesta 2": "gap",
+    "Respuesta 3": "align-items",
+    "I1": "grid-auto-rows",
+    "I2": "justify-items",
+    "I3": "grid-row-gap",
+    "Pista": "'Grid-template-columns' define las columnas. 'Gap' añade espacio entre elementos, y 'align-items' alinea verticalmente el contenido en celdas."
+  },
+  {
+    "Enunciado": "Necesitas que el texto de un párrafo se corte si supera el ancho disponible, con puntos suspensivos al final. ¿Qué propiedades usas?",
+    "Codigo": "<p style=\"_____ : nowrap; _____ : ellipsis; _____ : hidden;\">Texto</p>",
+    "Respuesta 1": "white-space",
+    "Respuesta 2": "text-overflow",
+    "Respuesta 3": "overflow",
+    "I1": "word-wrap",
+    "I2": "line-height",
+    "I3": "clip",
+    "Pista": "'White-space: nowrap' evita saltos de línea. 'Text-overflow: ellipsis' añade puntos suspensivos, y 'overflow: hidden' oculta el contenido sobrante."
+  },
+  {
+    "Enunciado": "Quieres que un div ocupe todo el ancho disponible, pero que mantenga un alto fijo. ¿Qué propiedades usas?",
+    "Codigo": "<div style=\"_____ : 100%; _____ : 50px; _____ : 10px;\">Div completo</div>",
+    "Respuesta 1": "width",
+    "Respuesta 2": "height",
+    "Respuesta 3": "margin",
+    "I1": "padding",
+    "I2": "max-height",
+    "I3": "overflow",
+    "Pista": "'Width: 100%' ajusta al ancho del contenedor. 'Height' fija la altura, y 'Margin' separa el div del resto de elementos."
+  },
+  {
+    "Enunciado": "Estás creando un modal y necesitas centrarlo vertical y horizontalmente. ¿Qué propiedades usas?",
+    "Codigo": "<div style=\"display: flex; _____ : center; _____ : center; _____ : 50px;\">Modal</div>",
+    "Respuesta 1": "justify-content",
+    "Respuesta 2": "align-items",
+    "Respuesta 3": "padding",
+    "I1": "flex-direction",
+    "I2": "margin",
+    "I3": "height",
+    "Pista": "'Justify-content' centra en el eje horizontal, 'align-items' en el vertical, y 'padding' añade espacio interno al modal."
+  },
+  {
+    "Enunciado": "Quieres aplicar una transformación 3D rotando un elemento en el eje X. ¿Qué propiedades usas?",
+    "Codigo": "<div style=\"_____ : rotateX(45deg); _____ : 200px; _____ : 100px;\">Rotación</div>",
+    "Respuesta 1": "transform",
+    "Respuesta 2": "width",
+    "Respuesta 3": "height",
+    "I1": "perspective",
+    "I2": "position",
+    "I3": "overflow",
+    "Pista": "'Transform' aplica rotaciones, escalas o traslaciones. 'Width' y 'height' controlan el tamaño del elemento afectado."
+  },
+  {
+    "Enunciado": "Quieres que un botón crezca cuando el usuario pase el cursor sobre él. ¿Qué propiedades CSS necesitas?",
+    "Codigo": "<button style=\"_____ : scale(1.2); _____ : blue; _____ : white;\">Hover</button>",
+    "Respuesta 1": "transform",
+    "Respuesta 2": "background-color",
+    "Respuesta 3": "color",
+    "I1": "font-size",
+    "I2": "box-shadow",
+    "I3": "outline",
+    "Pista": "'Transform: scale(1.2)' agranda el botón. 'Background-color' cambia el color de fondo, y 'color' modifica el del texto."
+  },
+  {
+    "Enunciado": "Necesitas que un elemento tenga una posición fija incluso al hacer scroll. ¿Qué propiedades usas?",
+    "Codigo": "<div style=\"_____ : fixed; _____ : 0; _____ : 0;\">Fijo</div>",
+    "Respuesta 1": "position",
+    "Respuesta 2": "top",
+    "Respuesta 3": "left",
+    "I1": "z-index",
+    "I2": "overflow",
+    "I3": "padding",
+    "Pista": "'Position: fixed' fija un elemento. 'Top' y 'left' lo posicionan respecto al viewport."
+  },
+    {
+    "Enunciado": "Quieres que un div tenga una sombra difusa y un fondo blanco. ¿Qué propiedades usas?",
+    "Codigo": "<div style=\"_____ : 10px 10px 20px rgba(0, 0, 0, 0.5); _____ : white; _____ : 20px;\">Sombra</div>",
+    "Respuesta 1": "box-shadow",
+    "Respuesta 2": "background-color",
+    "Respuesta 3": "padding",
+    "I1": "border-radius",
+    "I2": "margin",
+    "I3": "display",
+    "Pista": "'Box-shadow' añade sombras. 'Background-color: white' pone el fondo blanco y 'padding' crea espacio interno."
+  },
+  {
+    "Enunciado": "Necesitas que el contenido de un contenedor se alinee a la derecha. ¿Qué propiedad aplicas?",
+    "Codigo": "<div style=\"_____ : right; _____ : auto; _____ : hidden;\">Alineado</div>",
+    "Respuesta 1": "text-align",
+    "Respuesta 2": "margin",
+    "Respuesta 3": "overflow",
+    "I1": "position",
+    "I2": "justify-content",
+    "I3": "padding",
+    "Pista": "'Text-align: right' alinea texto. 'Margin' ajusta la separación del contenedor, y 'overflow' maneja contenido desbordado."
+  },
+  {
+    "Enunciado": "Quieres que una imagen mantenga su proporción original al ajustar su tamaño. ¿Qué propiedades aplicas?",
+    "Codigo": "<img style=\"_____ : cover; _____ : 100%; _____ : auto;\" src=\"imagen.jpg\"/>",
+    "Respuesta 1": "object-fit",
+    "Respuesta 2": "width",
+    "Respuesta 3": "height",
+    "I1": "overflow",
+    "I2": "max-width",
+    "I3": "min-height",
+    "Pista": "'Object-fit: cover' ajusta la imagen a su contenedor. 'Width' define el ancho, y 'height: auto' conserva la proporción."
+  },
+  {
+    "Enunciado": "Quieres que un contenedor tenga un borde de color rojo y sin relleno. ¿Qué propiedades necesitas?",
+    "Codigo": "<div style=\"_____ : 1px solid red; _____ : 0; _____ : 20px;\">Contenedor</div>",
+    "Respuesta 1": "border",
+    "Respuesta 2": "padding",
+    "Respuesta 3": "margin",
+    "I1": "outline",
+    "I2": "box-shadow",
+    "I3": "background-color",
+    "Pista": "'Border' añade un borde. 'Padding: 0' elimina el relleno, y 'margin' separa el contenedor de otros elementos."
+  },
+  {
+    "Enunciado": "Quieres aplicar una animación al cambiar el color de fondo de un elemento. ¿Qué propiedades usas?",
+    "Codigo": "<div style=\"_____ : background-color 0.5s ease; _____ : red; _____ : white;\">Animación</div>",
+    "Respuesta 1": "transition",
+    "Respuesta 2": "background-color",
+    "Respuesta 3": "color",
+    "I1": "animation",
+    "I2": "keyframes",
+    "I3": "timing-function",
+    "Pista": "'Transition' define cambios suaves. 'Background-color' especifica el color de fondo inicial y 'color' afecta el texto."
+  },
+  {
+    "Enunciado": "Quieres ocultar un elemento del DOM sin eliminarlo, manteniendo su espacio reservado. ¿Qué propiedades CSS aplicas?",
+    "Codigo": "<div style=\"_____ : hidden; _____ : block; _____ : 50px;\">Oculto</div>",
+    "Respuesta 1": "visibility",
+    "Respuesta 2": "display",
+    "Respuesta 3": "height",
+    "I1": "opacity",
+    "I2": "overflow",
+    "I3": "z-index",
+    "Pista": "'Visibility: hidden' oculta el contenido manteniendo su espacio. 'Display: block' asegura que ocupe su línea, y 'height' define la altura."
+  },
+  {
+    "Enunciado": "Quieres un efecto de opacidad gradual al pasar el cursor sobre un botón. ¿Qué propiedades usas?",
+    "Codigo": "<button style=\"_____ : 0.5s; _____ : hover; _____ : 0.8;\">Botón</button>",
+    "Respuesta 1": "transition",
+    "Respuesta 2": "pseudo-class",
+    "Respuesta 3": "opacity",
+    "I1": "z-index",
+    "I2": "box-shadow",
+    "I3": "background-color",
+    "Pista": "'Transition' suaviza el efecto. 'Hover' es el estado cuando pasa el cursor, y 'opacity' ajusta la transparencia."
+  },
+  {
+    "Enunciado": "Quieres que un texto se subraye y cambie de color al pasar el cursor. ¿Qué propiedades CSS utilizas?",
+    "Codigo": "<a style=\"_____ : underline; _____ : blue; _____ : pointer;\">Enlace</a>",
+    "Respuesta 1": "text-decoration",
+    "Respuesta 2": "color",
+    "Respuesta 3": "cursor",
+    "I1": "outline",
+    "I2": "border",
+    "I3": "hover",
+    "Pista": "'Text-decoration: underline' subraya el texto. 'Color' define el color del texto y 'cursor' cambia el estilo del puntero."
+  },
+  {
+    "Enunciado": "Quieres que un contenedor use un scroll cuando su contenido exceda el tamaño fijo. ¿Qué propiedades aplicas?",
+    "Codigo": "<div style=\"_____ : auto; _____ : 300px; _____ : 200px;\">Scroll</div>",
+    "Respuesta 1": "overflow",
+    "Respuesta 2": "width",
+    "Respuesta 3": "height",
+    "I1": "z-index",
+    "I2": "padding",
+    "I3": "display",
+    "Pista": "'Overflow: auto' añade scroll según necesidad. 'Width' y 'height' definen el tamaño del contenedor."
+  },
+  {
+    "Enunciado": "Quieres crear un espacio uniforme alrededor del contenido dentro de un div. ¿Qué propiedad CSS necesitas?",
+    "Codigo": "<div style=\"_____ : 20px;\">Espaciado uniforme</div>",
+    "Respuesta 1": "padding",
+    "Respuesta 2": "margin",
+    "Respuesta 3": "border",
+    "I1": "outline",
+    "I2": "box-shadow",
+    "I3": "display",
+    "Pista": "'Padding' añade espacio interno alrededor del contenido, diferenciándose de 'margin', que actúa fuera del contenedor."
+  }
+]

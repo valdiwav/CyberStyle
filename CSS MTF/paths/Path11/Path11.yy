@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"Path11",
+  "closed":false,
+  "kind":1,
+  "name":"Path11",
+  "parent":{
+    "name":"Mapa3",
+    "path":"folders/Salas/Rutas/Mapa3.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":639.99396,"y":415.97043,},
+    {"speed":100.0,"x":896.758,"y":415.78204,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

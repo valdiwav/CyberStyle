@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"Path9",
+  "closed":false,
+  "kind":0,
+  "name":"Path9",
+  "parent":{
+    "name":"Mapa2",
+    "path":"folders/Rutas/Mapa2.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":640.0,"y":216.0,},
+    {"speed":100.0,"x":800.0,"y":216.0,},
+    {"speed":100.0,"x":800.0,"y":376.0,},
+    {"speed":100.0,"x":912.0,"y":376.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
